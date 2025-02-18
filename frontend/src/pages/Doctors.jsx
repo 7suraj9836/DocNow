@@ -125,15 +125,15 @@ const Doctors = () => {
               <div className="p-4">
                 <div
                   className={`flex items-center gap-2 text-sm text-center ${
-                    item.available ? "bg-green-500" : "text-gray-500"
+                    ele.available ? "bg-green-500" : "text-gray-500"
                   } `}
                 >
                   <p
                     className={`w-2 h-2 ${
-                      item.available ? "bg-green-500" : "bg-gray-500"
+                      ele.available ? "bg-green-500" : "bg-gray-500"
                     } bg-green-500 rounded-full`}
                   ></p>
-                  <p>{item.available ? "Available" : "Not Available"}</p>
+                  <p>{ele.available ? "Available" : "Not Available"}</p>
                 </div>
                 <p className="text-gray-900 text-lg font-medium">{ele?.name}</p>
                 <p className="text-gray-600 text-sm">{ele?.speciality}</p>
